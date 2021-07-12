@@ -14,7 +14,7 @@
 ---
 
 # Terraform 101
-This repository builds AWS IAM User Groups, Roles, Policies and Attachments; S3 buckets; Glue Crawler and Athena. It also builds and tests what's been createad with a Github Actions workflow. 
+This repository creates the following resources on AWS: IAM User Groups, Roles, Policies and Attachments; S3 buckets; Glue Crawler and Athena. It also builds and tests what's been createad with a Github Actions workflow. 
 
 ## Table of Contents
 
