@@ -64,6 +64,3 @@ terraform destroy
 ![Captura de tela de 2021-07-12 09-15-32](https://user-images.githubusercontent.com/42218088/125296106-53c53080-e2fc-11eb-8d9c-5acdc4915cfd.png)![Captura de tela de 2021-07-12 09-15-20](https://user-images.githubusercontent.com/42218088/125296133-5889e480-e2fc-11eb-8b24-20ff8749e8eb.png)
 
 
-
-Topics
-terraform terraform-modules terraform-module terraform-aws
