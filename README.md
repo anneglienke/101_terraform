@@ -14,7 +14,7 @@
 ---
 
 # Terraform 101
-This repository builds AWS IAM User Groups, Roles, Policies and Attachments; S3 buckets; Glue Crawler and Athena. It also builds and tests what's been createad with a Github Actions workflow.
+This repository builds AWS IAM User Groups, Roles, Policies and Attachments; S3 buckets; Glue Crawler and Athena. It also builds and tests what's been createad with a Github Actions workflow. 
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ This repository builds AWS IAM User Groups, Roles, Policies and Attachments; S3 
 
 ## How to use Terraform
 
-The Github Actions worflow will initialize, validate and build a plan to your Terraform project. To use it, you have to insert your AWS Credentials in Github Secrets. This workflow won't deploy anything to your AWS account, don't worry. If you want it to, though, you can simply add step 5 (below) to it.
+The Github Actions worflow in this repository will initialize, validate and build a plan to this Terraform project. To run it successfully, you have to insert your AWS Security Credentials (Access Key ID and Secret Access Key) in Github Secrets. This workflow won't deploy anything to your AWS account, don't worry. If you want it to, though, you can simply add step 5 (below) to it.
 
 But you can also run Terraform and test your code locally, if you want. Just put your AWS Credentials in the file called `provider.tf` and then follow these steps:
 
