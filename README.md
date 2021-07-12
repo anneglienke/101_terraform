@@ -25,7 +25,7 @@ This repository builds AWS IAM User Groups, Roles, Policies and Attachments; S3 
 
 The Github Actions worflow will initialize, validate and build a plan to your Terraform project. To use it, insert your AWS Credentials in Github Secrets. This workflow won't deploy anything to your AWS account, don't worry. If you want it to, you can simply add step 5 (below) to it.
 
-But you can also run Terraform locally, if you want. Just follow these steps:
+But you can also run Terraform locally, if you want. Just put your AWS Credentials in the file called `provider.tf` and then follow these steps:
 
 1. [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
 
