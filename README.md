@@ -79,5 +79,5 @@ When the deletion is completed, you'll see this message:
 
 
 <p align="center">---------------</p>
-<h3 align="center"> That's it. You've deployed your Infrastructure as Code to AWS. Congratulations! </h3>
+<h3 align="center"> That's it. You deployed your Infrastructure as Code to AWS. Congratulations! </h3>
 
