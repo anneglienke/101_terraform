@@ -27,7 +27,7 @@ The Github Actions worflow in this repository will initialize, validate and buil
 
 But you can also run Terraform and test your code locally, if you want. Just put your AWS Credentials in the file called `provider.tf` and then follow these steps:
 
-1. [Install Terraform](https:/learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
+1. [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli?in=terraform%2Faws-get-started)
 
 
 2. Initialize Terraform in your repository using the command `terraform init`. You should see this message:
