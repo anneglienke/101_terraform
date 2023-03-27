@@ -1,7 +1,7 @@
 # Create roles
 
 # Glue crawler
-resource "aws_iam_role" "glue_role" {
+resource "aws_iam_role" "glue_crawler_role" {
   name = "GlueCrawlerRole"
 
   assume_role_policy = <<EOF
@@ -10,11 +10,10 @@ resource "aws_iam_role" "glue_role" {
   "Statement": [
     {
       "Action": "sts:AssumeRole",
+      "Effect": "Allow",
       "Principal": {
         "Service": "glue.amazonaws.com"
-      },
-      "Effect": "Allow",
-      "Sid": ""
+      }
     }
   ]
 }
