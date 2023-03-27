@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=350px height=100px src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg" alt="Terraform logo"></a>
+ <img width=420px height=100px src="images/1024px-Terraform_Logo.png" alt="Terraform logo"></a>
 </p>
 
 <p align="center">"Terraform is an open-source infrastructure as code software tool that enables you to safely and predictably create, change, and improve infrastructure."</p>
