@@ -16,10 +16,15 @@
 # Terraform 101
 This repository creates the following resources on AWS: IAM User Groups, Roles, Policies and Attachments; S3 buckets; Glue Crawler and Athena. It also builds and tests what's been createad with a Github Actions workflow. 
 
-## Table of Contents
+<br />
 
-- [.github/workflows](https://github.com/anneglienke/terraform101/tree/main/.github/workflows) - Github Actions workflow
-- [infrastructure](https://github.com/anneglienke/terraform101/tree/main/infrastructure) - Terraform files
+## Table of Contents
+| Content                  | Description |
+| ------                   | ------ |
+| [.github/workflows](https://github.com/anneglienke/terraform101/tree/main/.github/workflows) | Github Actions workflow |
+| [infrastructure](https://github.com/anneglienke/terraform101/tree/main/infrastructure) | Terraform files |
+
+<br />
 
 ## How to use Terraform
 
