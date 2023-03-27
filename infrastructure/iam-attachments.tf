@@ -78,7 +78,7 @@ resource "aws_iam_group_policy_attachment" "dataanalyst-attach2" {
 # Roles
 # Glue Crawler
 resource "aws_iam_role_policy_attachment" "glue_attach" {
-  role       = aws_iam_role.glue_role.name
+  role       = aws_iam_role.glue_crawler_role.name
   policy_arn = aws_iam_policy.glue_policy.arn
 }
 
