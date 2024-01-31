@@ -14,7 +14,7 @@
 ---
 
 # Terraform 101
-This repository creates the following resources on AWS: IAM User Groups, Roles, Policies and Attachments; S3 buckets; Glue Crawler and Athena. It also builds and tests what's been createad with a Github Actions workflow. 
+This repository creates the following resources on AWS: IAM User Groups, Roles, Policies, and Attachments; S3 buckets; Glue Crawler and Athena. It also builds and tests what's been created with a GitHub Actions workflow. 
 
 <br />
 
@@ -28,9 +28,9 @@ This repository creates the following resources on AWS: IAM User Groups, Roles, 
 
 ## How to use Terraform
 
-The Github Actions worflow in this repository will initialize, validate and build a plan to this Terraform project. To run it successfully, you have to insert your AWS Security Credentials (Access Key ID and Secret Access Key) in Github Secrets. This workflow won't deploy anything to your AWS account, don't worry. If you want it to, though, you can simply add step 5 (below) to it.
+The GitHub Actions workflow in this repository will initialize, validate, and build a plan for this Terraform project. To run it successfully, you have to insert your AWS Security Credentials (Access Key ID and Secret Access Key) in Github Secrets. This workflow won't deploy anything to your AWS account, so don't worry. If you want it to, though, you can simply add the command `apply auto-approve` to it.
 
-But you can also run Terraform and test your code locally, if you want. Just put your AWS Credentials in the file called `provider.tf` and then follow these steps:
+You can also run Terraform and test your code locally if you want. Just put your AWS Credentials in the file called `provider.tf` and then follow these steps:
 
 1. [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli?in=terraform%2Faws-get-started)
 
@@ -67,7 +67,7 @@ But you can also run Terraform and test your code locally, if you want. Just put
 </p>
 
 
-6. If this is just a test and you want to delete everything you've created, you don't have to it manually. You can simply use the command `terraform destroy`. Type 'yes' to confirm the deletion.
+6. If this is just a test and you want to delete everything you've created, you don't have to do it manually. You can simply use the command `terraform destroy`. Type 'yes' to confirm the deletion.
 
 <p align="left">
   <a href="" rel="noopener">
